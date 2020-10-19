@@ -11,7 +11,7 @@ const extend = require('util')._extend;
 const GcmProvider = require('../lib/providers/gcm');
 const mockery = require('./helpers/mockery').gcm;
 const objectMother = require('./helpers/object-mother');
-const loopback = require('loopback');
+const loopback = require('@tispr/loopback');
 
 const aDeviceToken = 'a-device-token';
 const aDeviceTokenList = [

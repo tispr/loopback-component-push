@@ -5,7 +5,7 @@
 
 'use strict';
 const assert = require('assert');
-const loopback = require('loopback');
+const loopback = require('@tispr/loopback');
 
 const ds = loopback.createDataSource('db', {
   connector: loopback.Memory,

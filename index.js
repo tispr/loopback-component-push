@@ -11,7 +11,7 @@ SG.SetRootDir(__dirname);
 /**
  * Export the connector
  */
-const loopback = require('loopback');
+const loopback = require('@tispr/loopback');
 const PushConnector = require('./lib/push-connector');
 exports = module.exports = PushConnector;
 

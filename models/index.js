@@ -7,7 +7,7 @@
 
 // mostly borrowed from
 // https://github.com/strongloop/loopback-component-passport/blob/master/lib/index.js
-const loopback = require('loopback');
+const loopback = require('@tispr/loopback');
 const DataModel = loopback.PersistedModel || loopback.DataModel;
 
 function loadModel(jsonFile) {

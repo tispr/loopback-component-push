@@ -6,7 +6,7 @@
 'use strict';
 const async = require('async');
 const expect = require('chai').expect;
-const loopback = require('loopback');
+const loopback = require('@tispr/loopback');
 const sinon = require('sinon');
 const PushManager = require('../lib/push-manager');
 const NodeCache = require('node-cache');
